@@ -1,0 +1,89 @@
+# Compiled binaries and object files
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+*.class
+
+# Build directories
+build/
+build-*/
+cmake-build-*/
+out/
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+compile_commands.json
+Testing/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.swp
+*.swo
+*~
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+
+# Test and coverage artifacts
+coverage/
+coverage.html
+*.gcda
+*.gcno
+*.profraw
+*.profdata
+
+# Generated benchmark output
+results/generated/
+results/*.csv
+results/*.png
+results/*.svg
+
+# Keep documentation and result instructions
+!results/README.md
+
+# Local configuration and environment files
+.env
+.env.*
+!.env.example
+
+# Python benchmark/plotting caches, if used
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Generated test artifacts
+test-output/
+test-results/
